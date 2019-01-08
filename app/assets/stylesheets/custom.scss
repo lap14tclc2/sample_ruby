@@ -130,6 +130,23 @@ input {
     height: 40px;
 }
 
+.checkbox {
+    margin-top: -10px;
+    padding-bottom: 30px;
+    position: relative;
+    span {
+        margin-left: 20px;
+        position: absolute;
+        top: 13px;
+        font-weight: normal;
+    }
+}
+
+#session_remember_me {
+    width: auto;
+    margin-left: 0;
+}
+
 #error_explanation {
     color: red;
     ul {
@@ -137,6 +154,7 @@ input {
         margin: 0 0 3px 0;
     }
 }
+
 
 /* 
 Rails automatically wraps fields with error in div that has the CSS class 'field_with_errors'
